@@ -1,4 +1,4 @@
-2020-03-31-20:59:36
+2020-03-27-13:56:14
 
 debug: False
 template: .
@@ -22,7 +22,7 @@ r_mean: 0.4488
 g_mean: 0.4371
 b_mean: 0.404
 block_feats: 256
-model: wdsr_a
+model: wdsr_b
 act: relu
 pre_train: .
 extend: .
@@ -57,7 +57,7 @@ epsilon: 1e-08
 weight_decay: 0
 loss: 1*L1
 skip_threshold: 1000000.0
-save: WDSR_amodel
+save: WDSRmodel
 load: .
 resume: 0
 save_models: True
